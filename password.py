@@ -37,11 +37,9 @@ def password():
                 else:
                     print("⚠️ Please enter a valid response (y/n).")
                     time.sleep(1.5)
-                    # Buradaki hatırlatıcı print'i koruduk
                     os.system("cls" if os.name == "nt" else "clear")
                     print(f"✅ Your password was: {generated_password}")
         except ValueError:
-            # Harf veya geçersiz sembol girilirse burası kurtarır
             print("⚠️ Invalid input! Please enter a WHOLE NUMBER.")
             time.sleep(2)
 if __name__ == "__main__":
