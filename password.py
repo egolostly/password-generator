@@ -9,12 +9,12 @@ def password():
             os.system("cls" if os.name == "nt" else "clear")
             user_input = input("🧾 Enter your password length (1-100): ").strip()
             if not user_input:
-                print("⚠️  You cannot leave it empty!")
+                print("⚠️ You cannot leave it empty!")
                 time.sleep(1.5)
                 continue
             length = int(user_input)
             if length < 1 or length > 100:
-                print("⚠️  Please enter a length between 1 and 100.")
+                print("⚠️ Please enter a length between 1 and 100.")
                 time.sleep(2)
                 continue
             print("👾 Generating your password...")
@@ -35,7 +35,7 @@ def password():
                     time.sleep(1.5)
                     return
                 else:
-                    print("⚠️  Please enter a valid response (y/n).")
+                    print("⚠️ Please enter a valid response (y/n).")
                     time.sleep(1.5)
                     # Buradaki hatırlatıcı print'i koruduk
                     os.system("cls" if os.name == "nt" else "clear")
