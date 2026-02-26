@@ -1,4 +1,4 @@
-# 🔐 Robust Password Generator
+# Password Generator
 
 ### 🎯 Purpose
 The main goal of this project is to provide a **crash-proof** and **user-friendly** environment for generating secure passwords. It focuses on solving common terminal-input issues and ensuring the application remains stable regardless of user behavior.
